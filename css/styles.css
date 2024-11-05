@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quattrocento", serif;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #333;
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .home {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+  
+  .homeName {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  
+  .homeLinks {
+    justify-content: space-between;
+  }
+  
+  .homeLink {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  .imgPartName {
+    color: #FFFFFF;
+    font-size: 72px;
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29.5%;
+    display: block;   
+    margin-bottom: 10px;
+  }
+  
+  .imgPartName::after{
+    content: "";
+    background-color: #F2C94C;
+    display: block;
+    height: 5px;
+    width: 475px;
+  }
+  
+  .loremTextDiv{
+    width: 745px;
+    height: 201px;
+    color: #FFFFFF;
+    font-size: 25px;
+    display: block; 
+    margin-bottom: auto;
+  }
+  
+  .topPizza{
+    margin: 0 auto;
+    margin-top: 24.9px;
+  
+  }
+  
+  .aboutUs{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .aboutUsHeader{
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-top: 100px;
+  }
+  
+  .aboutUsHeader::after{
+    content: "";
+    background-color: #F2C94C;
+    display: block;
+    height: 9px;
+    width: 474px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutUsText{
+    color: #FFFFFF;
+    font-size: 25px;
+    height: 400px;
+    width: 320px;
+  }
+  
+  .aboutUsImageDiv{
+    margin-top: 100px;
+    height: 500px;
+    width: 500px;
+  }
+  
+  .aboutUsImg{
+    height: 643px;
+    width: 413px;
+    margin-left: 17.8%;
+  }
+  
+  .readMore{
+    border: solid 1px #F2C94C;
+    background-color:  #000000;
+    color: #F2C94C;
+    height: 54px;
+    width: 129px;
+    cursor: pointer;
+    margin-top: 100px;
+  }
+  
+  .findUsHeader{
+    text-align: center;
+  }
+  
+  .findUsHeaderText{
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-top: 100px;
+  }
+  
+  .findUsHeaderText::after{
+    content: "";
+    background-color: #F2C94C;
+    display: block;
+    height: 9px;
+    width: 474px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+  
+  .findUsBody{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    
+  }
+  
+  .map{
+    height: 600px;
+    width: 600px;
+    margin-left: 15%;
+  }
+  
+  .findUsTextDiv{
+    margin-left: 13%;
+  }
+  
+  .findUsText{
+    color: #FFFFFF;
+    font-size: 25px;
+  }
+  
+  .ourMenu{
+    margin-top: 300px;
+  }
+  
+  .ourMenuHeaderDiv{
+    text-align: center;
+  }
+  
+  .ourMenuHeader{
+    color: #FFFFFF;
+    font-size: 60px;
+  }
+  
+  .ourMenuHeader::after{
+    content: "";
+    background-color: #F2C94C;
+    display: block;
+    height: 9px;
+    width: 474px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  
+  .ourMenuBodyDiv{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ourMenuBodyTextDiv{
+    height: 236px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ourMenuBodyText{
+    color: #FFFFFF;
+    font-size: 25px;
+  }
+  
+  .ourMenuBodyImagesDiv{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .menuButtonDiv{
+    width: 129px;
+    height: 54px;
+    border: solid 2px #F2C94C;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+  }
+  
+  .menuButton{
+    color: #F2C94C;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  
+  .imagePart {
+    background-image: url("../assets/images/wood-2045380_1920\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagePartFooter {
+    background-image: url("../assets/images/wood-2045380_1920\ 1\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pizzaFooter{
+    height: 1024px;
+    width: 1440px;
+  }
+  
+  
+  .footerImgPartName {
+    color: #FFFFFF;
+    font-size: 72px;
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+  }
+  
+  .footerImgPartName::after{
+    content: "";
+    background-color: #F2C94C;
+    display: block;
+    height: 5px;
+    width: 485px;
+  }
+  
+  .socialMediaContainer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  .sMInstagram{
+    height: 97.5px;
+    width: 100px;
+    margin-bottom: 5px;
+  }
+  
+  .sMFace{
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  
+  .sMWhatsApp{
+    width: 62px;
+    height: 74px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+  
+  .footersFooterTextDiv{
+    text-align: center;
+    margin-top: 35px;
+  }
+  
+  .footersFooterText{
+    font-size: 24px;
+    color: #FFFFFF;
+  }
